@@ -8,6 +8,7 @@ Multiple issues were encountered along the way (especially since the tutorial wa
 - function Constructor() were replaced by constructor()
 - Storage and memory location had to be specified
 - emit invocation had to be added before calling the event function
+- the Mocha framework was used for testing
 
 Most issues were pointed out by the Solidity plugin on VS Code.
 If anyone ever encounter this, I highly recommend doing the CryptoZombies introduction to Solidity before.
