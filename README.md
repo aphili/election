@@ -1,8 +1,10 @@
-This voting dApp has been created following Dapp University's tutorial.
-Multiple issues were encountered along the way since this tutorial was made a year ago.
+### Introduction to dApp - Voting dApp, the classical approach
+
+This voting dApp has been created following [Dapp University's](http://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial) tutorial.
+Multiple issues were encountered along the way (especially since the tutorial was made a year ago).
 
 - Solidity >0.5.0 was used
-- Ganache was not used, instead Truffle development blockchain was prefered
+- Ganache was not used, instead Truffle development blockchain was prefered (sudo was mandatory to compile)
 - function Constructor() were replaced by constructor()
 - Storage and memory location had to be specified
 - emit invocation had to be added before calling the event function

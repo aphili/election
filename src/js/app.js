@@ -1,4 +1,9 @@
 App = {
+
+  // do not forget operation are  asynchronous
+  // data needs to be fetched thus deployed() promise 
+  // is used in order to do this, and then ...
+  
   web3Provider: null,
   contracts: {},
   account: '0x0',
