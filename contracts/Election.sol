@@ -9,6 +9,10 @@ contract Election {
         uint voteCount;
     }
 
+    event votedEvent (
+        uint indexed _candidateId
+    );
+
     // Read / write candidates
     mapping (uint => Candidate) public candidates;
     
@@ -41,6 +45,9 @@ contract Election {
 
         //update candidate count
         candidates[_candidateId].voteCount++;
+
+        //trigger event
+        emit votedEvent(_candidateId);
     }
 
 }
